@@ -1,0 +1,42 @@
+* {
+  list-style-type: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: thistle;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-right: 200px;
+  margin-left: 200px;
+  height: 400px;
+  align-items: center;
+  text-align: center;
+  border-radius: 40px;
+}
+.toDoForm {
+  padding: 20px;
+}
+.toDoTask {
+  border-radius: 12px;
+  height: 30px;
+}
+.add {
+  background-color:blanchedalmond;
+}
+.list li{background-color:rgb(231, 153, 153);
+    margin-bottom: 10px;
+border-radius: 15px;
+padding: 5px 70px;
+
+}
+
+
+
+.completedTask {
+  text-decoration: line-through;
+}
